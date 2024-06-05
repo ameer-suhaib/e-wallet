@@ -1,0 +1,45 @@
+.withrawcontainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.modal-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-group{
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+}
+.form-group input{
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.form-group textarea{
+    width: 250px;
+    height: auto;
+}
+.form-container{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    background-color:rgb(223, 223, 223);
+    padding: 50px;
+    border-radius: 3px;
+}
+.modal-footer button{
+    cursor: pointer;
+    padding: 5px 30px;
+
+}

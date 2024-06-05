@@ -1,0 +1,15 @@
+.transaction-container{
+    margin-left: 250px;
+    padding: 20px 35px;
+}
+.transaction-container table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: arial, sans-serif;
+    border:2px solid black;
+}
+.transaction-container td ,th{
+    border:1px solid black;
+    text-align: left;
+    padding: 18px;
+}
